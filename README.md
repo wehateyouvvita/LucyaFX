@@ -3,7 +3,7 @@ LucyaFX is a fixed version of the original Lucya, a recreation of the current Lu
 
 # Setup:
 
-Install the Python 3.11.2 from the link below.
+Install the Python 3.11.2 from the link [here](https://www.python.org/downloads/).
 
 https://www.python.org/downloads/
 
@@ -82,10 +82,23 @@ Press the bar at the top showing the file location and type in ```cmd ```
 Next, install the libraries and dependencies by typing ```
 pip install -r requirements.txt ```
 
+If any problems occur, make sure to install the latest versions of the packages, and you can do this via finding tutorials online. I will not go over that in this README.
+
+-------------------------------------------------------------------------------
+
+Next, open XAMPP again.
+
+Start Apache and MySQL by clicking the "Start" button. You can't miss it...
+
+![image](https://user-images.githubusercontent.com/98233732/225148551-d1d4e94e-b006-45bd-8ce8-44346b36b6ab.png)
+
+Make sure they are running, and then click "Admin" on the MySQL row.
+
+![image](https://user-images.githubusercontent.com/98233732/225148639-0b702b8c-0513-4df6-94ae-0d3ef56628cd.png)
 
 
 
-Install the libraries: pip install -r requirements.txt
+
 Setup a MYSQL database with the Lucya.sql file
 Configure main.py to connect to your MYSQL database
 Run the website: python3 main.py
