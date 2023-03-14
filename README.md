@@ -9,6 +9,10 @@ https://www.python.org/downloads/
 
 **Make sure to install PATH. (Click the checkbox after starting the installer.)**
 
+![image](https://user-images.githubusercontent.com/98233732/225142849-303e312e-7c21-4789-a976-8318574ce1b5.png)
+
+After this, continue with the installation like normal.
+
 -------------------------------------------------------------------------------
 
 Download and install XAMPP from ApacheFriends, link below.
@@ -27,8 +31,9 @@ Once the string has been located, change the number to anything that you want, I
 
 ![image](https://user-images.githubusercontent.com/98233732/225141703-50181f5c-6a3c-4149-a8cb-76ae6c25444c.png)
 
+Now save the changes and close the window.
 
-
+-------------------------------------------------------------------------------
 
 
 
