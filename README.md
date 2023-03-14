@@ -1,7 +1,7 @@
 # LucyaFX
 LucyaFX is a fixed version of the original Lucya, with an easier to follow and updated tutorial, to work with the latest version of python as of March 2023 (3.11.2), and edited values in both the database_lib and the main file, to actually get Lucya to work. 
 
-# Setup:
+# Setup
 
 ## Installing Python
 
@@ -169,5 +169,7 @@ This will now quit the process. All you have to do now is open XAMPP, and quit t
 ### Credits
 
 ROBLOX - for the website source code and styles.
+
 TsunamiWind - for the original Lucya.
+
 vvita - for helping to fix Lucya and update it.
