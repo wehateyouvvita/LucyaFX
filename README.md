@@ -3,8 +3,6 @@ LucyaFX is a fixed version of the original Lucya, with an easier to follow and u
 
 # Setup:
 
--------------------------------------------------------------------------------
-
 ## Installing Python
 
 Install the Python 3.11.2 from the link [here](https://www.python.org/downloads/).
