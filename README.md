@@ -15,9 +15,7 @@ After this, continue with the installation like normal.
 
 -------------------------------------------------------------------------------
 
-Download and install XAMPP from ApacheFriends, link below.
-
-https://www.apachefriends.org
+Download and install XAMPP from ApacheFriends, at [this](https://www.apachefriends.org) link.
 
 Once downloaded, locate the "Apache" section and click "httpd.conf".
 
