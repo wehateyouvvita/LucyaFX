@@ -1,5 +1,5 @@
 # LucyaFX
-LucyaFX is a fixed version of the original Lucya, with an easier to follow and updated tutorial, to work with the latest version of python as of March 2023 (3.11.2), and edited values in both the database_lib and the main file, to actually get Lucya to work. 
+LucyaFX is a fixed version of the original Lucya, with an easier to follow and updated tutorial, to work with the latest version of python as of March 2023 (3.11.2), and edited files for the website to work properly.
 
 # Setup
 
