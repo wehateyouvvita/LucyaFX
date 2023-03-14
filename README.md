@@ -5,8 +5,6 @@ LucyaFX is a fixed version of the original Lucya, a recreation of the current Lu
 
 Install the Python 3.11.2 from the link [here](https://www.python.org/downloads/).
 
-https://www.python.org/downloads/
-
 **Make sure to install PATH. (Click the checkbox after starting the installer.)**
 
 ![image](https://user-images.githubusercontent.com/98233732/225142849-303e312e-7c21-4789-a976-8318574ce1b5.png)
