@@ -127,6 +127,8 @@ Like earlier, Press the bar at the top showing the file location and type in ```
 
 Type into the Command Prompt window: ```python C:\Users\m0nst\Desktop\Lucya-main\main.py```
 
+Make sure to change the location to whatever you have set yours as, and also change the user.
+
 After this, the window will tell you that the website is running.
 
 ![image](https://user-images.githubusercontent.com/98233732/225153200-4318e261-b322-41f7-ad44-288435d49458.png)
