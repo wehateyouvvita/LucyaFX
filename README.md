@@ -1,7 +1,11 @@
 # LucyaFX
-LucyaFX is a fixed version of the original Lucya, a recreation of the current Lucya.
+LucyaFX is a fixed version of the original Lucya, with an easier to follow and updated tutorial, to work with the latest version of python as of March 2023 (3.11.2), and edited values in both the database_lib and the main file, to actually get Lucya to work. 
 
 # Setup:
+
+-------------------------------------------------------------------------------
+
+## Installing Python
 
 Install the Python 3.11.2 from the link [here](https://www.python.org/downloads/).
 
@@ -12,6 +16,7 @@ Install the Python 3.11.2 from the link [here](https://www.python.org/downloads/
 After this, continue with the installation like normal.
 
 -------------------------------------------------------------------------------
+## Installing and configuring XAMPP
 
 Download and install XAMPP from ApacheFriends, at [this](https://www.apachefriends.org) link.
 
@@ -19,7 +24,7 @@ Once downloaded, locate the "Apache" section and click "httpd.conf".
 
 ![image](https://user-images.githubusercontent.com/98233732/225140539-c2dff9de-da76-4515-ad78-56c4b40f5251.png)
 
-Inside the file, press CNTRL+F, and search for ```Listen 80```
+Inside the file, press "CTRL+F", and search for ```Listen 80```
 
 ![image](https://user-images.githubusercontent.com/98233732/225141488-c92c474d-bfd9-4c87-8829-47686af2bc79.png)
 
@@ -30,6 +35,8 @@ Once the string has been located, change the number to anything that you want, I
 Now save the changes and close the window.
 
 -------------------------------------------------------------------------------
+
+## Editing the "hosts" file
 
 Now, open RUN. You can do this by either right clicking the start button, and then run, or just searching it up in Windows Search.
 
@@ -67,6 +74,8 @@ Once all of this is done, feel free to close all windows apart from XAMPP.
 
 -------------------------------------------------------------------------------
 
+## Installing the libraries
+
 Now, download all the files from this repository and extract them to a folder located on the desktop.
 
 ![image](https://user-images.githubusercontent.com/98233732/225146605-958885db-80a2-4b96-8050-f92e9d64cbd4.png)
@@ -81,6 +90,8 @@ pip install -r requirements.txt ```
 If any problems occur, make sure to install the latest versions of the packages, and you can do this via finding tutorials online. I will not go over that in this README.
 
 -------------------------------------------------------------------------------
+
+## Setting up the MySQL database
 
 Next, open XAMPP again.
 
@@ -100,9 +111,65 @@ To get past this, you will need to put the port that you chose after the localho
 
 ![image](https://user-images.githubusercontent.com/98233732/225149409-b4838dd7-f34c-4627-a336-3d0ab62dacfc.png)
 
+The page will then load. 
 
+Now, create and setup your MySQL database like normal, and make sure to import the included "Lucya.sql" file. 
+If you do not know how to do this, there are tutorials online as well.
 
+-------------------------------------------------------------------------------
 
-Setup a MYSQL database with the Lucya.sql file
-Configure main.py to connect to your MYSQL database
-Run the website: python3 main.py
+## Editing "main.py"
+
+Open main.py in any IDE, I am using Visual Studio Code.
+
+Find the section with the database details. You will need to input your own, and this will vary between systems.
+
+![image](https://user-images.githubusercontent.com/98233732/225151038-35416ccf-23cd-44f7-8bb5-db74c3b318a4.png)
+
+Press "File > Save" and you can now exit out of your IDE.
+
+Once you have done this you can now move on to actually running the website.
+
+-------------------------------------------------------------------------------
+
+## Hosting the website locally
+
+Like earlier, Press the bar at the top showing the file location and type in ```cmd ```
+
+![image](https://user-images.githubusercontent.com/98233732/225146786-574c3dc3-9d21-4605-9940-11e9db38a347.png)
+
+Type into the Command Prompt window: ```python C:\Users\m0nst\Desktop\Lucya-main\main.py```
+
+After this, the window will tell you that the website is running.
+
+![image](https://user-images.githubusercontent.com/98233732/225153200-4318e261-b322-41f7-ad44-288435d49458.png)
+
+Next, visit any of the domains you chose to host it on. In my case, I am opening the "roblox.local" site.
+
+![image](https://user-images.githubusercontent.com/98233732/225153511-71fee034-9189-4f01-acba-f0f2e87b89eb.png)
+
+You should now be able to visit the website, create an account, login and edit values in the database.
+
+-------------------------------------------------------------------------------
+
+## Stopping the website hosting
+
+Open the Command Prompt window again and press "CTRL+C"
+
+![image](https://user-images.githubusercontent.com/98233732/225154181-9d5a898e-2d60-45c3-8351-8ec2ae984bd6.png)
+
+This will now quit the process. All you have to do now is open XAMPP, and quit the Apache and MySQL processes.
+
+![image](https://user-images.githubusercontent.com/98233732/225154533-92638353-bdcc-4fa3-8944-03fc64fc725a.png)
+
+-------------------------------------------------------------------------------
+
+## You have successfully setup LucyaFX!
+
+-------------------------------------------------------------------------------
+
+### Credits
+
+ROBLOX - for the website source code and styles.
+TsunamiWind - for the original Lucya.
+vvita - for helping to fix Lucya and update it.
