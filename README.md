@@ -92,6 +92,14 @@ Make sure they are running, and then click "Admin" on the MySQL row.
 
 ![image](https://user-images.githubusercontent.com/98233732/225148639-0b702b8c-0513-4df6-94ae-0d3ef56628cd.png)
 
+It should take you to a localhost PHPMyAdmin window.
+
+Eventually, the site will say that it cannot connect to localhost, this is normal.
+
+To get past this, you will need to put the port that you chose after the localhost, and in my case, like this: ```http://localhost:1337/phpmyadmin/```
+
+![image](https://user-images.githubusercontent.com/98233732/225149409-b4838dd7-f34c-4627-a336-3d0ab62dacfc.png)
+
 
 
 
