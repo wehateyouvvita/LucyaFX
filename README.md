@@ -13,7 +13,6 @@ Install the Python 3.11.2 from the link [here](https://www.python.org/downloads/
 
 After this, continue with the installation like normal.
 
--------------------------------------------------------------------------------
 ## Installing and configuring XAMPP
 
 Download and install XAMPP from ApacheFriends, at [this](https://www.apachefriends.org) link.
@@ -31,8 +30,6 @@ Once the string has been located, change the number to anything that you want, I
 ![image](https://user-images.githubusercontent.com/98233732/225141703-50181f5c-6a3c-4149-a8cb-76ae6c25444c.png)
 
 Now save the changes and close the window.
-
--------------------------------------------------------------------------------
 
 ## Editing the "hosts" file
 
@@ -70,8 +67,6 @@ After this, make sure to save the notes file via "File > Save".
 
 Once all of this is done, feel free to close all windows apart from XAMPP.
 
--------------------------------------------------------------------------------
-
 ## Installing the libraries
 
 Now, download all the files from this repository and extract them to a folder located on the desktop.
@@ -86,8 +81,6 @@ Next, install the libraries and dependencies by typing ```
 pip install -r requirements.txt ```
 
 If any problems occur, make sure to install the latest versions of the packages, and you can do this via finding tutorials online. I will not go over that in this README.
-
--------------------------------------------------------------------------------
 
 ## Setting up the MySQL database
 
@@ -114,8 +107,6 @@ The page will then load.
 Now, create and setup your MySQL database like normal, and make sure to import the included "Lucya.sql" file. 
 If you do not know how to do this, there are tutorials online as well.
 
--------------------------------------------------------------------------------
-
 ## Editing "main.py"
 
 Open main.py in any IDE, I am using Visual Studio Code.
@@ -127,8 +118,6 @@ Find the section with the database details. You will need to input your own, and
 Press "File > Save" and you can now exit out of your IDE.
 
 Once you have done this you can now move on to actually running the website.
-
--------------------------------------------------------------------------------
 
 ## Hosting the website locally
 
@@ -148,8 +137,6 @@ Next, visit any of the domains you chose to host it on. In my case, I am opening
 
 You should now be able to visit the website, create an account, login and edit values in the database.
 
--------------------------------------------------------------------------------
-
 ## Stopping the website hosting
 
 Open the Command Prompt window again and press "CTRL+C"
@@ -160,11 +147,7 @@ This will now quit the process. All you have to do now is open XAMPP, and quit t
 
 ![image](https://user-images.githubusercontent.com/98233732/225154533-92638353-bdcc-4fa3-8944-03fc64fc725a.png)
 
--------------------------------------------------------------------------------
-
 ## You have successfully setup LucyaFX!
-
--------------------------------------------------------------------------------
 
 ### Credits
 
