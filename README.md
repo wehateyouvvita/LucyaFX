@@ -157,4 +157,6 @@ ROBLOX - for the website source code and styles.
 
 TsunamiWind - for the original Lucya.
 
+seven - HELping me with one part lo
+
 vvita - for helping to fix Lucya and update it.
