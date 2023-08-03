@@ -153,10 +153,10 @@ This will now quit the process. All you have to do now is open XAMPP, and quit t
 
 ### Credits
 
-[TsunamiWind](https://www.github.com/tsunamiwind/). - The original Lucya.
+[TsunamiWind](https://www.github.com/tsunamiwind/) - The original Lucya.
 
-[wehateyouvvita](https://www.github.com/wehateyouvvita/). - Fixing up the source code and updating Lucya.
+[wehateyouvvita](https://www.github.com/wehateyouvvita/) - Fixing up the source code and updating Lucya.
 
-[Seven](https://github.com/SevenRBX). - Helping me with a registration error.
+[Seven](https://github.com/SevenRBX) - Helping me with a registration error.
 
-[ROBLOX](https://roblox.com). - ROBLOX website code, images and styles.
+[ROBLOX](https://roblox.com) - ROBLOX website code, images and styles.
