@@ -153,10 +153,10 @@ This will now quit the process. All you have to do now is open XAMPP, and quit t
 
 ### Credits
 
-roblox - for the website source code and styles.
+[TsunamiWind](https://www.github.com/tsunamiwind/). - The original Lucya.
 
-epiculy - for the original lucya.
+[wehateyouvvita](https://www.github.com/wehateyouvvita/). - Fixing up the source code and updating Lucya.
 
-seven - helping me with one error when registering.
+[Seven](https://github.com/SevenRBX). - Helping me with a registration error.
 
-vvita - myself for some things.
+[ROBLOX](https://roblox.com). - ROBLOX website code, images and styles.
